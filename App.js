@@ -44,11 +44,27 @@
 //     </div>
 // </div>
 
-// if we haveto give more than 1 children, then we have to convert the 3rd argument in to array by adding [] to the whole element, i.e it is an array of different children
+// // if we haveto give more than 1 children, then we have to convert the 3rd argument in to array by adding [] to the whole element, i.e it is an array of different children
+// const parent = [React.createElement(
+//     "div",{id : "parent"}, 
+//     [React.createElement("div",{id : "child1"},
+//     React.createElement("h1",{},"I am an H1 tag"), 
+//     React.createElement("h2",{},"I am an H2 tag")),
+//     React.createElement("div",{id : "child2"},
+//     React.createElement("h1",{},"I am an H1 tag"), 
+//     React.createElement("h2",{},"I am an H2 tag"))]
+//     )];
+//     // but this looks untidy, react is used to make things easy but right now it looks very bad, thats why we use JSX
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(parent);
+
+// now we will import React dfrom the react dependency which we have in our node modules
+import React from "react";
+import ReactDOM from "react-dom/client";
 const parent = [React.createElement(
     "div",{id : "parent"}, 
     [React.createElement("div",{id : "child1"},
-    React.createElement("h1",{},"I am an H1 tag"), 
+    React.createElement("h1",{},"This is Namaste React🚀"), 
     React.createElement("h2",{},"I am an H2 tag")),
     React.createElement("div",{id : "child2"},
     React.createElement("h1",{},"I am an H1 tag"), 
@@ -57,3 +73,21 @@ const parent = [React.createElement(
     // but this looks untidy, react is used to make things easy but right now it looks very bad, thats why we use JSX
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
+
+// parcel - 1. Dev Build
+//           2. Local Server
+//           3. HMR = Hot Module Replacement
+//           4. File Watching Algorithm - C++
+//           5. caching - Faster Builds
+//           6. Image Optimization
+//           7. Minification of files during production build
+//           8. Bundling 
+//           9. Compress the file
+//           10. Content Hashing
+//           11. Code Splitting     
+//           12. Differential bundling - support older Browsers
+//           13. Diagnostic
+//           14. Error Handling
+//           15. HTTPs
+//           16. Tree Shaking - Remove unused code
+//           17. Different Dev and Production Bundles
