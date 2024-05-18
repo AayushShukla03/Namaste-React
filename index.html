@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <div id="root"></div>
+    <div id="root">
+         <h1>Not Rendered!</h1>   <!-- good practice to write not rendered in the industry -->
+    </div>
        <!-- normal way to create a heading using html, we want to create it using Javascript <h1>Hello World!</h1> -->
        <!-- <script>
             const heading = document.createElement("h1");//we will use script tag to write javascript code, now how to use heading tag in javascipt? we will use DOM i.e. document.createElemnet // creating elemnet like h1 tag in javascript
@@ -18,6 +20,8 @@
 
        <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
        <!-- <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>  // commenting cdn links -->
-       <script type="module" src = "./App.js"></script> <!-- now if we write type type = "module" then we are teling browser that it is not a normal javascript file or a normal script, it will be considered as a module -->
+       <script type="module" src = "./App.js">
+        
+       </script> <!-- now if we write type type = "module" then we are teling browser that it is not a normal javascript file or a normal script, it will be considered as a module -->
 </body>
 </html>

@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "This is Namaste React by Akshay Saini",
   "scripts": {
-    "start": "rm -rf .parcel-cache && parcel",
-    "build": "rm -rf .parcel-cache && parcel build"
-  }, 
-  "jest": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
