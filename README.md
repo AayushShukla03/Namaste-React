@@ -1,5 +1,5 @@
 # Namanste React 🚀 
-# Low level design for our food ordering application:- 
+Low level design for our food ordering application:- 
 Header 
     - Logo
     - Navigation Menu and Nav Items
